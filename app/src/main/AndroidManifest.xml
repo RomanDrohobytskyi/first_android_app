@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student_pl.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".first.lab.SecondActivity" />
+        <activity android:name=".first.lab.datatypes.IntegerType" />
+        <activity android:name=".first.lab.datatypes.DoubleType" />
+        <activity android:name=".first.lab.datatypes.StringType" />
+        <activity android:name=".first.lab.arithmetic.SqrtNumb" />
+        <activity android:name=".InputNumber" />
+        <activity android:name=".first.lab.arithmetic.Szescian" />
+        <activity android:name=".second.SecondLabMain" />
+        <activity android:name=".first.lab.FirstMain"></activity>
+    </application>
+
+</manifest>

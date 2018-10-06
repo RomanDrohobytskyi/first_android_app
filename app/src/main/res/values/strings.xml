@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">First android application</string>
+    <string name="choiceTXTView">Make your choice: </string>
+    <string name="integerBTN">Integer</string>
+    <string name="doubleBTN">double</string>
+    <string name="hello">Hello,</string>
+    <string name="stringBTN">String</string>
+    <string name="integer_info">The java.lang.Integer class wraps a value of the primitive type int in an object. An object of type Integer contains a single field whose type is int.</string>
+    <string name="integer_type">Integer</string>
+    <string name="double_type">Double</string>
+    <string name="double_info">The java.lang.Double class wraps a value of the primitive type double in an object. An object of type Double contains a single field whose type is double.</string>
+    <string name="string_type">String</string>
+    <string name="string_info">The java.lang.String class represents character strings. All string literals in Java programs, such as abc, are implemented as instances of this class.Strings are constant, their values cannot be changed after they are created</string>
+    <string name="enter_number">Enter number</string>
+    <string name="enter">enter</string>
+    <string name="sqrt_type_string">SQRT of number</string>
+    <string name="enter_number_btn">Enter number</string>
+    <string name="cube_of_number">Cube of number</string>
+    <string name="next_exc">Next exc</string>
+    <string name="first_lab_btn">First lab</string>
+    <string name="second_lab_btn">Second lab</string>
+    <string name="what_s_your_name">What`s Your Name?</string>
+</resources>
