@@ -24,7 +24,8 @@
         <activity android:name=".InputNumber" />
         <activity android:name=".first.lab.arithmetic.Szescian" />
         <activity android:name=".second.SecondLabMain" />
-        <activity android:name=".first.lab.FirstMain"></activity>
+        <activity android:name=".first.lab.FirstMain" />
+        <activity android:name=".secondlab.SecondLabMain"></activity>
     </application>
 
 </manifest>
