@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondlab.colors.Colors">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/redTextView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="165dp"
+            android:background="#C0392B"
+            android:text="@string/redTXTView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/greenTextView"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:background="#27AE60"
+            android:gravity="center"
+            android:text="@string/greenTXTView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/blueTextView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="165dp"
+            android:background="#2E86C1"
+            android:text="@string/blueTXTView"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

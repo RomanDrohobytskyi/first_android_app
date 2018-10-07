@@ -8,11 +8,11 @@
     <string name="stringBTN_first">String</string>
 
     <!--TextView texts-->
-        <!--Titles-->
+    <!--Titles-->
     <string name="integer_type_first">Integer</string>
     <string name="double_type_first">Double</string>
     <string name="string_type_first">String</string>
-        <!--Text-->
+    <!--Text-->
     <string name="integer_info_first">The java.lang.Integer class wraps a value of the primitive type int in an object. An object of type Integer contains a single field whose type is int.</string>
     <string name="double_info_first">The java.lang.Double class wraps a value of the primitive type double in an object. An object of type Double contains a single field whose type is double.</string>
     <string name="string_info_first">The java.lang.String class represents character strings. All string literals in Java programs, such as abc, are implemented as instances of this class.Strings are constant, their values cannot be changed after they are created</string>
@@ -28,5 +28,8 @@
     <string name="what_s_your_name">What`s Your Name?</string>
 
     <string name="second_lab_hello">Hello, it`s second lab. Make your choice: </string>
+    <string name="redTXTView">red</string>
+    <string name="greenTXTView">green</string>
+    <string name="blueTXTView">blue</string>
 
 </resources>

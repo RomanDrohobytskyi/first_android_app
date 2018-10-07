@@ -25,7 +25,8 @@
         <activity android:name=".first.lab.arithmetic.Szescian" />
         <activity android:name=".second.SecondLabMain" />
         <activity android:name=".first.lab.FirstMain" />
-        <activity android:name=".secondlab.SecondLabMain"></activity>
+        <activity android:name=".secondlab.SecondLabMain" />
+        <activity android:name=".secondlab.colors.Colors"></activity>
     </application>
 
 </manifest>

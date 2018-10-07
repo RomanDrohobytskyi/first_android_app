@@ -5,12 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".secondlab.SecondLabMain">
+
     <LinearLayout
         android:id="@+id/LinearLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <TextView
@@ -32,14 +37,16 @@
                 android:id="@+id/rgbBTN_second"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="rgbColor"
+                android:text="RBG" />
 
             <Button
                 android:id="@+id/cmykBTN_second"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="cmyk" />
 
             <Button
                 android:id="@+id/listBTN_second"
