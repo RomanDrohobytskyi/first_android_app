@@ -17,7 +17,7 @@
             android:id="@+id/StringType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/string_type"
+            android:text="@string/string_type_first"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="24sp" />
@@ -26,7 +26,7 @@
             android:id="@+id/stringInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/string_info"
+            android:text="@string/string_info_first"
             android:textAlignment="center"
             android:textSize="18sp" />
 

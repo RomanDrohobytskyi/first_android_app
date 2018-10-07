@@ -18,7 +18,7 @@
             android:id="@+id/integedType"
             android:layout_width="match_parent"
             android:layout_height="77dp"
-            android:text="@string/integer_type"
+            android:text="@string/integer_type_first"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="30sp" />
@@ -27,7 +27,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="328dp"
-            android:text="@string/integer_info" />
+            android:text="@string/integer_info_first" />
 
         <Button
             android:id="@+id/button3"

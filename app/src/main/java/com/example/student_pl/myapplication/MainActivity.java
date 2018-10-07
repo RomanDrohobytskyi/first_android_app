@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.student_pl.myapplication.first.lab.FirstMain;
+import com.example.student_pl.myapplication.secondlab.SecondLabMain;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void firstLab(View view){
         Intent intent = new Intent(this, FirstMain.class);
+        startActivity(intent);
+    }
+
+    public void secondLab(View view){
+        Intent intent = new Intent(this, SecondLabMain.class);
         startActivity(intent);
     }
 }

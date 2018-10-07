@@ -17,7 +17,7 @@
             android:id="@+id/textView"
             android:layout_width="75dp"
             android:layout_height="45dp"
-            android:text="@string/hello"
+            android:text="@string/hello_first"
             android:textAlignment="center"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="54dp"
@@ -34,28 +34,28 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/choiceTXTView"
+            android:text="@string/choice_first"
             android:textAlignment="center" />
 
         <Button
             android:id="@+id/intBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/integerBTN"
+            android:text="@string/integerBTN_first"
             android:onClick="integerType"/>
 
         <Button
             android:id="@+id/doubleBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/doubleBTN"
+            android:text="@string/doubleBTN_first"
             android:onClick="doubleType"/>
 
         <Button
             android:id="@+id/StringBTN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/stringBTN"
+            android:text="@string/stringBTN_first"
             android:onClick="stringType"/>
 
         <Button
