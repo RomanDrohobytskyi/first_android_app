@@ -30,38 +30,47 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="73dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/rgbBTN_second"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_weight="1"
                 android:onClick="rgbColor"
                 android:text="RBG" />
 
             <Button
+                android:id="@+id/listBTN_second"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:onClick="goFirstNumber"
+                android:text="First number" />
+
+            <Button
                 android:id="@+id/cmykBTN_second"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_weight="1"
+                android:onClick="cmykColor"
                 android:text="cmyk" />
 
             <Button
-                android:id="@+id/listBTN_second"
+                android:id="@+id/goMainBTN"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Button" />
+                android:layout_height="70dp"
+                android:onClick="myList"
+                android:text="List" />
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/goMainBTN"
+            android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="randomNumbs"
+            android:text="Random numbs list" />
     </LinearLayout>
 
 

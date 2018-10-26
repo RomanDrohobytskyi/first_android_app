@@ -31,5 +31,14 @@
     <string name="redTXTView">red</string>
     <string name="greenTXTView">green</string>
     <string name="blueTXTView">blue</string>
+    <string name="cyan_color">cyan</string>
+    <string name="magneta_color">magneta</string>
+    <string name="black_color">black</string>
+    <string name="yellow_color">yellow</string>
+    <string name="check_first_txt">Enter number to check if first:</string>
+    <string name="third_lab">third lab</string>
+    <string name="films">Films</string>
+    <string name="series">Series</string>
+    <string name="get_random_numbs">Get random numbs</string>
 
 </resources>

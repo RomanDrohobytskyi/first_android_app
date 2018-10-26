@@ -26,7 +26,15 @@
         <activity android:name=".second.SecondLabMain" />
         <activity android:name=".first.lab.FirstMain" />
         <activity android:name=".secondlab.SecondLabMain" />
-        <activity android:name=".secondlab.colors.Colors"></activity>
+        <activity android:name=".secondlab.colors.Colors" />
+        <activity android:name=".secondlab.colors.ColorsCmyk" />
+        <activity android:name=".secondlab.colors.SetColor" />
+        <activity android:name=".secondlab.colors.FirstNumber" />
+        <activity android:name=".secondlab.mylist.MyList" />
+        <activity android:name=".thirdlab.ThirdLabMain" />
+        <activity android:name=".thirdlab.movie.Series" />
+        <activity android:name=".thirdlab.movie.Films" />
+        <activity android:name=".secondlab.mylist.RandomList"></activity>
     </application>
 
 </manifest>

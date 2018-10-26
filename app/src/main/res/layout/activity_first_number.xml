@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".secondlab.colors.FirstNumber">
 
     <LinearLayout
         android:id="@+id/LinearLayout1"
@@ -12,26 +13,29 @@
         android:gravity="center"
         android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/firstLabBNT"
+
+        <TextView
+            android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="firstLab"
-            android:text="@string/first_lab_btn" />
+            android:text="Enter number: "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/secondLabBNT"
+            android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/second_lab_btn"
-            android:onClick="secondLab"/>
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="thirdLab"
-            android:text="@string/third_lab" />
+            android:onClick="firstNumber"
+            android:text="Enter" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

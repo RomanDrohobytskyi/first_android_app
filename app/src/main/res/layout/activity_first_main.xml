@@ -21,7 +21,8 @@
             android:text="@string/what_s_your_name"
             android:textAlignment="center"
             tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="56dp"></TextView>
+            tools:layout_editor_absoluteY="56dp">
+        </TextView>
 
         <EditText
             android:id="@+id/nameEdit"

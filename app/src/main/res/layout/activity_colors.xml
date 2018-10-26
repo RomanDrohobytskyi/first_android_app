@@ -4,32 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".secondlab.colors.Colors">
+    tools:context=".secondlab.colors.Colors"
+    tools:layout_editor_absoluteY="81dp">
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="5dp"
+        android:layout_width="378dp"
+        android:layout_height="509dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="1dp">
 
         <TextView
             android:id="@+id/redTextView"
             android:layout_width="match_parent"
-            android:gravity="center"
             android:layout_height="165dp"
             android:background="#C0392B"
+            android:gravity="center"
             android:text="@string/redTXTView"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@android:color/background_light" />
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/greenTextView"
@@ -40,17 +37,19 @@
             android:text="@string/greenTXTView"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@android:color/background_light" />
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/blueTextView"
             android:layout_width="match_parent"
-            android:gravity="center"
             android:layout_height="165dp"
             android:background="#2E86C1"
+            android:gravity="center"
             android:text="@string/blueTXTView"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@android:color/background_light" />
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
